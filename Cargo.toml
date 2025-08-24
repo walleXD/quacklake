@@ -1,0 +1,11 @@
+[workspace.package]
+version = "0.0.1"
+authors = ["DD Engineering <engineering@datadepo.us>"]
+edition = "2024"
+license = "MIT"
+readme = "README.md"
+rust-version = "1.89.0"
+
+[workspace]
+members = ["crates/*"]
+resolver = "2"
