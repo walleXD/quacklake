@@ -1,5 +1,5 @@
 # Base image: Python 3.11 with devcontainer support
-FROM mcr.microsoft.com/devcontainers/python:3.11
+FROM mcr.microsoft.com/devcontainers/python:3.13
 
 ARG ZIG_VERSION=0.14.0
 
